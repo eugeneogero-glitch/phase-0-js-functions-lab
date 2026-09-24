@@ -6,6 +6,7 @@
 You are working as a junior developer at a company that builds tools for managing personal budgets. Your task is to create a set of basic functions to perform common calculations related to budgeting. This lab will help you practice defining and using functions in JavaScript.
 
 **Tools and Resources:**
+
 - VSCode
 - GitHub repository https://github.com/learn-co-curriculum/phase-0-js-functions-lab.git
 - Refer to previous lessons on JavaScript functions if needed
