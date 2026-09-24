@@ -1,7 +1,29 @@
 
 
 
+ 
+// 1. Write the functions first
+function calculateTax(amount) {
+    return amount * 0.10;
+}
 
+function convertToUpperCase(text) {
+    return text.toUpperCase();
+}
 
-// This is required for the test to function properly  
+function findMaximum(num1, num2) {
+    return Math.max(num1, num2);
+}
+
+function isPalindrome(word) {
+    const cleanedWord = word.toLowerCase();
+    const reversedWord = cleanedWord.split('').reverse().join('');
+    return cleanedWord === reversedWord;
+}
+
+function calculateDiscountedPrice(originalPrice, discountPercentage) {
+    const discountAmount = originalPrice * (discountPercentage / 100);
+    return originalPrice - discountAmount;
+}
+// This is required for the test to function properly
 module.exports = { calculateTax, convertToUpperCase, findMaximum, isPalindrome, calculateDiscountedPrice };
